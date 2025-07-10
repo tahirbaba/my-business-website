@@ -11,6 +11,7 @@ import Services from "@/components/Services";
 import ScrollToTop from '@/components/ScrollToTop';
 import Loader from '@/components/Loader';
 import SocialSidebar from '@/components/SocialSidebar';
+import Projects from '@/components/Projects';
 
 export default function Home() {
   return (
@@ -31,6 +32,10 @@ export default function Home() {
       </section>
 
       <section id="services">
+        <Projects />
+      </section>
+
+      <section id="services">
         <Services />
       </section>
 
@@ -48,3 +53,9 @@ export default function Home() {
     </motion.main>
   );
 }
+
+// Technology!t@hiRh@$ni!
+// vyaiqmdiokokbjae
+// !t@hiRh@$ni!
+// supabase        eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxkdWRid2F2dGZhaGRta2JsanJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk5MTkxNjcsImV4cCI6MjA2NTQ5NTE2N30.tZolCLCblVl2ITGmH35COxvIwJ6WtpElAIniC501ocI
+// https://www.g2.com/survey_responses/upwork-review-11305931/suggestions

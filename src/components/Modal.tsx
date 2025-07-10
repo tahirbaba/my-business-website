@@ -42,7 +42,6 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, title, content, ctaLabel
           onClick={onClose}
           className="absolute top-2 right-3 text-gray-400 hover:text-gray-600 dark:hover:text-white text-xl font-bold"
         >
-          ×
         </button>
       </motion.div>
     </motion.div>
