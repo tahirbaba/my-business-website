@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-start gap-4 flex-wrap">
             <Link href="#contact">
               <button className="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-700 hover:to-violet-700 text-white font-semibold px-6 py-3 rounded-full shadow-xl transition-all duration-300 hover:scale-105">
-                🚀 Let's Build
+                🚀 Let&apos;s Build
               </button>
             </Link>
             <Link href="#about">

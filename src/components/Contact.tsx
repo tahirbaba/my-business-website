@@ -51,7 +51,7 @@ export default function Contact() {
         >
           <p className="text-indigo-600 dark:text-indigo-400 uppercase font-semibold tracking-wide text-sm">Say Hello 👋</p>
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
-            Let's <span className="text-indigo-600 dark:text-indigo-400">Connect</span>
+            Let&apos;s <span className="text-indigo-600 dark:text-indigo-400">Connect</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
             Have questions or ideas? Drop a message or reach out directly via call/email.

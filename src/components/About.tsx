@@ -47,7 +47,7 @@ const About = () => {
             Nexora is where imagination meets execution. We blend tech, design, and intelligence to craft digital experiences that solve real problems.
           </p>
           <p className="text-gray-600 dark:text-gray-400 text-base">
-            Whether it's a startup idea or an enterprise solution — we build, automate, and scale your vision.
+            Whether it&apos;s a startup idea or an enterprise solution — we build, automate, and scale your vision.
           </p>
         </motion.div>
 
