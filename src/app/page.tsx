@@ -16,6 +16,7 @@ import Projects from '@/components/Projects';
 export default function Home() {
   return (
     <motion.main
+      className="w-full overflow-x-hidden"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
@@ -31,7 +32,7 @@ export default function Home() {
         <About />
       </section>
 
-      <section id="services">
+      <section id="projects">
         <Projects />
       </section>
 
@@ -53,9 +54,3 @@ export default function Home() {
     </motion.main>
   );
 }
-
-// Technology!t@hiRh@$ni!
-// vyaiqmdiokokbjae
-// !t@hiRh@$ni!
-// supabase        eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxkdWRid2F2dGZhaGRta2JsanJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk5MTkxNjcsImV4cCI6MjA2NTQ5NTE2N30.tZolCLCblVl2ITGmH35COxvIwJ6WtpElAIniC501ocI
-// https://www.g2.com/survey_responses/upwork-review-11305931/suggestions

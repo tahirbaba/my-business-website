@@ -75,17 +75,19 @@ const Hero = () => {
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          className="flex-1 flex justify-center relative"
+          className="flex-1 flex justify-center relative w-full"
         >
-          <div className="absolute top-6 -left-6 w-full h-full rounded-3xl bg-white/10 dark:bg-white/5 backdrop-blur-xl shadow-2xl z-0 animate-pulse" />
-          <Image
-            src="/hero-section.jpg"
-            alt="Nexora Hero"
-            width={520}
-            height={520}
-            priority
-            className="relative z-10 rounded-3xl shadow-2xl object-contain"
-          />
+          <div className="relative w-[90%] max-w-[520px] sm:w-[100%] sm:max-w-[520px]">
+            <div className="absolute top-4 left-4 w-full h-full rounded-3xl bg-white/10 dark:bg-white/5 backdrop-blur-xl shadow-2xl z-0 animate-pulse" />
+            <Image
+              src="/hero-section.jpg"
+              alt="Nexora Hero"
+              width={520}
+              height={520}
+              priority
+              className="relative z-10 rounded-3xl shadow-2xl object-contain w-full h-auto"
+            />
+          </div>
         </motion.div>
       </div>
     </section>

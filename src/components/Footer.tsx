@@ -5,22 +5,22 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-br from-gray-100 to-white dark:from-[#0f172a] dark:to-[#1e293b] text-gray-700 dark:text-gray-300 py-14 px-6 md:px-16 border-t border-gray-200 dark:border-gray-800 shadow-inner">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+    <footer className="w-full bg-gradient-to-br from-gray-100 to-white dark:from-[#0f172a] dark:to-[#1e293b] text-gray-700 dark:text-gray-300 py-12 px-4 sm:px-6 md:px-16 border-t border-gray-200 dark:border-gray-800 shadow-inner">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 text-center sm:text-left">
 
         {/* 🌟 Brand Info */}
-        <div>
-          <h2 className="text-3xl font-extrabold text-indigo-600 dark:text-indigo-400 mb-4 tracking-tight">
+        <div className="space-y-4">
+          <h2 className="text-3xl font-extrabold text-indigo-600 dark:text-indigo-400 tracking-tight">
             Nexora
           </h2>
-          <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+          <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400 max-w-md mx-auto sm:mx-0">
             Elevating digital presence with full-stack solutions, creative design & AI innovation.
           </p>
         </div>
 
         {/* 📂 Quick Links */}
-        <div>
-          <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-5">Quick Links</h3>
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">Quick Links</h3>
           <ul className="space-y-3 text-sm">
             <li>
               <Link href="#home" className="hover:text-indigo-600 hover:underline transition-all duration-300">
@@ -51,10 +51,10 @@ const Footer = () => {
         </div>
 
         {/* 📬 Contact & Socials */}
-        <div>
-          <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-5">Connect With Us</h3>
-          <div className="flex items-center gap-5 mb-5">
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">Connect With Us</h3>
 
+          <div className="flex justify-center sm:justify-start items-center gap-5">
             <a
               href="mailto:muhammadtahirhasni@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-indigo-600 hover:scale-110 transition-transform duration-300"
