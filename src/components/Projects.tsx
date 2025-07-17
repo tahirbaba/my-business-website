@@ -173,11 +173,12 @@ const Projects = () => {
 
                 {/* Details */}
                 <div
-                  className={clsx('transition-opacity duration-300', {
-                    'opacity-0 group-hover:opacity-100 h-0 group-hover:h-auto overflow-hidden':
-                      activeFilter === 'All',
-                    'opacity-100 h-auto': activeFilter !== 'All',
-                  })}
+                  className={clsx(
+                    'transition-opacity duration-300',
+                    activeFilter === 'All'
+                      ? 'md:opacity-0 md:group-hover:opacity-100 md:h-0 md:group-hover:h-auto md:overflow-hidden opacity-100 h-auto'
+                      : 'opacity-100 h-auto'
+                  )}
                 >
                   <span className="text-xs font-medium uppercase tracking-wide text-indigo-500 dark:text-pink-400">
                     {project.stack}
